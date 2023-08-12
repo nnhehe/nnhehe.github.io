@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Nunito&family=Special+Elite&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mai Anh</title>
+    <link rel="icon" href="img/1.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/29a0e49d27.js" crossorigin="anonymous"></script>
+    <meta property="og:image" content="img/1.jpg" />
+    <meta property="og:title" content="Mai Anh" />
+    <meta property="og:description" content="Trợ giảng nhân từ nhất AG1008" />
+</head>
+
+<body>
+    <section class="header">
+        <div class="header__box">Xinh đẹp</div>
+        <div class="header__box">May mắn</div>
+        <div class="header__box">
+            <div class="header__box--1">NDMA</div>
+            <div class="header__box--2">Mai Anh</div>
+        </div>
+        <div class="header__box">Thành công</div>
+        <div class="header__box">Nhiều tiền</div>
+    </section>
+    <section class="info">
+        <div class="info__background"></div>
+        <div class="info__white"></div>
+        <div class="info__item info__avatar"></div>
+        <div class="info__item info__item--1 info__name">Ngô Đàm Mai Anh</div>
+        <div class="info__item info__item--1 info__tick"><i class="fas fa-check-circle"></i></div>
+        <div class="info__item info__para">01/05/200x</div>
+    </section>
+    <section class="intro">
+        Đội ngũ giảng viên của trung tâm có trình độ chuyên môn cao đều sở hữu chứng chỉ quốc tế, tận tâm với nghề. Bên cạnh đó, học viên còn được hỗ trợ bởi đội trợ giảng nhiệt tình, thân thiện. Điều này giúp các bạn học viên có thêm nhiều động lực để chinh phục tiếng Anh nói riêng và con đường sự nghiệp nói chung. <br /><br />
+
+    </section>
+    <section class="audio">
+        <audio class="audio__box" id="audio" onplay="audioPlay()" controls="controls" preload="preload">
+            <source src="audio/audio.mp3" type="audio/mpeg" />
+        </audio>
+    </section>
+    <section class="para">
+        Tại đậy, học viên sẽ được tiếp cận với những phương pháp giảng dạy vui nhộn hài hước những vẫn đảm bảo lượng kiến thức tiếng Anh. 4 phương pháp giảng dạy tại Alibaba English Center bao gồm: TPR ( Total Physical Response – Tổng phản ứng vật lý), Shadowing Technique (Kỹ Thuật Bắt Chước), NLP (Lập Trình Ngôn Ngữ Tư Duy), ALE(Phương Pháp Nghe Chủ Động).
+<br /><br />
+    </section>
+    <section class="image">
+        <div class="image__box image__box--1"></div>
+        <div class="image__box image__box--2"></div>
+        <div class="image__box image__box--3"></div>
+    </section>
+    <section class="circle">
+        <div class="circle__box">
+            <span style="--i:1;"><img src="img/1.jpg" /></span>
+            <span style="--i:2;"><img src="img/2.jpg" /></span>
+            <span style="--i:3;"><img src="img/3.jpg" /></span>
+            <span style="--i:4;"><img src="img/4.jpg" /></span>
+            <span style="--i:5;"><img src="img/5.jpg" /></spfan>
+            <span style="--i:6;"><img src="img/6.jpg" /></span>
+            <span style="--i:7;"><img src="img/7.jpg" /></span>
+            <span style="--i:8;"><img src="img/8.jpg" /></span>
+        </div>
+        <p class="circle__para circle__para--1">Mai Anh học giỏi</p>
+        <p class="circle__para circle__para--2">Mai Anh</p>
+        <p class="circle__para circle__para--3">11/08/2023</p>
+    </section>
+    <section class="video">
+        <video class="video__box" id="video" onplay="videoPlay()" controls="controls" preload="preload" poster="img/1.jpg" loop="loop">
+            <source src="video/2.mp4" type="video/mp4" />
+        </video>
+    </section>
+    <section class="para">
+        Chúc chị sẽ luôn thành công và nhiệt huyết như vậy để ra đời nhiều tập thể alibaba đoàn kết và tiiến bộ.<br /><br />Chân thành theo đuổi ước mơ, trân trọng từng khoảng khắc ở Aliba ba này....<br /><br />
+        Mọi kì vọng đều sẽ được thực hiện một cách xứng đáng! <i class="far fa-heart"></i>
+    </section>
+    <section class="flow">
+        <div class="flow__loader">
+            <div class="flow__loader--box" style="--j:0"></div>
+            <div class="flow__loader--box" style="--j:1"></div>
+            <div class="flow__loader--box" style="--j:2"></div>
+            <div class="flow__loader--box" style="--j:3"></div>
+            <div class="flow__loader--box" style="--j:4"></div>
+        </div>
+    </section>
+    <section class="love">
+        <div class="love__box">
+            <p class="love__box--item">11/08/2023</p>
+            <p class="love__box--item">Miễn bài cho em nhé chị</p>
+            <p class="love__box--item"></p>
+            <p class="love__box--item"><i class="far fa-heart"></i></p>
+        </div>
+    </section>
+    
+    <script>
+        function audioPlay() {
+            document.getElementById('audio').play();
+            document.getElementById('video').pause();
+        }
+        function videoPlay() {
+            document.getElementById('video').play();
+            document.getElementById('audio').pause();
+        }
+    </script>
+</body>
+
+</html>
